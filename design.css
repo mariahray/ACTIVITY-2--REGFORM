@@ -1,0 +1,319 @@
+ img{
+width: 100px;
+height: 100px;
+padding-top: 30px;
+padding-right: 200px;
+padding-bottom: 50px;
+padding-left: 200px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subheading {
+    font-size: 12px;
+    margin: 0;
+}
+
+.cor {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-table,  .summary-table, .billing-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+	border:1px solid;
+	border-bottom:1px solid;
+   
+
+}
+
+.info-table td{
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+	
+}
+.billing-table td{
+		border-bottom:1px solid;
+		border-right:1px solid;
+		
+
+}
+.billing-table th{
+	  background-color:maroon;
+ padding-top:5px;
+ padding-bottom:5px;
+ width:1160px;	
+ color: white;
+ 
+ text-align:center;
+	
+}
+.info {
+    font-weight: bold;
+	    margin-bottom: 5px;
+		
+    width: 100%;
+
+}
+
+
+table th, table td {
+   
+    padding: 8px;
+    text-align: left;
+    
+	
+}
+
+.info {
+  
+    width: 500px;
+	/* Adjust the width as needed */
+}
+
+
+td span.program{
+	 width: 400px; 
+   margin-left: 60px;
+ display: inline-block; 
+ font-weight: bold;
+ 	 color:black;
+
+ 
+	
+}
+td span.info {
+    width: 400px; 
+   margin-left: 100px;
+   font-weight: bold;
+ display: inline-block;   
+	 color:black;
+
+}
+
+
+
+.summary-table{
+    margin-right: auto;
+	margin-left: auto;
+	margin-top:-1px;
+	border: 1px solid maroon;
+	color:maroon;
+    border-collapse: collapse;
+	text-align: center;
+	background:#FCFEA7;
+}
+
+.billing-section {
+    margin-bottom: 20px;
+}
+
+.billing-table .scholarship {
+    text-align: center;
+    font-weight: bold;
+}
+.amount td{
+	border-right:1px solid;
+}
+.billing-table .assessment, .billing-table .payment {
+    width: 50%;
+    vertical-align: top;
+	border-collapse: collapse;
+	
+}
+
+.billing-table .assessment table, .billing-table .payment table {
+    width: 100%;
+    border-collapse: collapse;
+	border-bottom:1px solid;
+}
+
+.billing-table .assessment td, .billing-table .payment td {
+    border: none;
+	
+    padding: 4px;
+}
+
+.billing-table .terms {
+    text-align: left;
+    padding: 8px;
+}
+
+.billing-table .terms ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.billing-table, .billing-table .approved-by, .billing-table .verified-by {
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+}
+.assessed-by{
+	 text-align: left;
+    padding: 8px;
+    vertical-align: top;
+	
+}
+.regheader{
+ background-color:maroon;
+ padding-top:5px;
+ padding-bottom:5px;
+ width:1160px;	
+ color: white;
+ text-align:center;
+}
+/* Adjusting padding-top for specific table cells */
+td span.info {
+    padding-top: 1px; /* Adjust this value as needed */
+}
+
+/* Specific adjustments for student number, year level, and registration status */
+td span.info.student-number {
+    width: 300px; 
+	margin-left: 80px;
+	 display: inline-block; 
+	 color:black;
+
+}
+
+td span.info.year-level {
+   width: 300px; 
+   margin-left: 135px;
+ display: inline-block; 
+	 color:black;
+ 
+}
+
+td span.info.registration-status {
+width: 300px; 
+   margin-left: 50px; 
+   	 display: inline-block;   
+	 	 color:black;
+
+
+   }
+td span.info.date {
+   width: 300px; 
+   margin-left: 194px;
+ display: inline-block;   
+}
+td.date-label,
+        td.name-label,
+        td.student-number-label,
+        td.program-label,
+        td.year-level-label,
+        td.major-label,
+        td.registration-status-label {
+            color: maroon;
+        }
+		    .schedule-table {
+            width: 80%;
+            margin: 0 auto;
+              border: 1px solid;
+			      border-collapse: collapse;
+				  padding-bottom:200px;
+				           color:maroon;
+
+        }
+
+        .schedule-table th {
+           color:maroon;
+            padding: 2px;
+            text-align: center;
+			 border: 1px solid;
+			 border-collapse:collapse;
+			 margin-top:-1px;
+			 
+        }
+
+
+        .section-col {
+            width: 10%;
+			text-align: center;
+			padding-bottom:200px;
+			           color:black;
+
+        }
+
+        .course-desc-col {
+            width: 35%;
+			text-align: left;
+			color:black;
+
+        }
+
+        .course-code-col{
+			text-align: center;
+            width: 15%;
+			 color:black;
+
+        }
+.terms-of-payment ul, .terms-of-payment ol {
+    padding-left: 20px;
+}
+        .schedule-table td {
+            padding: 2px;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top:-1px;
+				border-right:1px solid;
+				width: 1165px;
+				
+        }
+.units-col{
+	width: 2%;
+	text-align: center;
+				           color:black;
+
+}
+.schedule-col {
+	width: 35%;
+			text-align: left;
+						           color:black;
+
+}
+.assessment strong {
+	border-bottom:1px solid;
+}
+.signatory{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:10px;
+	margin-top:10px;
+	border: 1px solid maroon;
+	width: 1200px;
+    border-collapse: collapse;
+	text-align:center;
+}
+
+.Container{
+	width: 1500px;
+	height:1800px;
+	margin-left:auto;
+	margin-right: auto;
+	border:2px solid;
+	display:absolute;
+	
+}
